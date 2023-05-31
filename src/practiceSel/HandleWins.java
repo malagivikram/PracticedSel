@@ -22,6 +22,7 @@ public class HandleWins {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		String parentWin=driver.getWindowHandle();
+		//test
 		
 		System.out.println("Title of Parent Window is "+" : "+driver.getTitle());
 		
